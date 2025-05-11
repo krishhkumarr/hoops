@@ -48,6 +48,7 @@ importance_df = pd.DataFrame({
 
 # Initialize Dash app
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("🏀 NCAA Champion Predictions Dashboard", style={'textAlign': 'center'}),
