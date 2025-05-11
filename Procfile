@@ -1,1 +1,1 @@
-web: gunicorn prediction_dashboard:server 
+web: gunicorn prediction_dashboard:server --timeout 120 
